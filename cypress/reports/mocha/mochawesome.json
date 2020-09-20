@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-09-20T17:24:22.377Z",
-    "end": "2020-09-20T17:24:29.849Z",
-    "duration": 7472,
+    "start": "2020-09-20T21:47:45.201Z",
+    "end": "2020-09-20T21:47:53.069Z",
+    "duration": 7868,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b3995944-f89f-4c15-8c06-5d3133f1cd02",
+      "uuid": "9108d5bc-969e-4c0b-9c19-5232b5574cee",
       "title": "",
       "fullFile": "cypress/integration/Scenario_1/buyItNow_filter_spec.js",
       "file": "cypress/integration/Scenario_1/buyItNow_filter_spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "0d010540-4181-4cbb-9ad4-3d83e5cb8af3",
+          "uuid": "f4a1c725-0509-45dc-a170-d90a3961dfeb",
           "title": "Should be able to filter the results by Buy it now",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should be able to navigate to buy it now view and confirm",
               "fullTitle": "Should be able to filter the results by Buy it now should be able to navigate to buy it now view and confirm",
               "timedOut": null,
-              "duration": 5917,
+              "duration": 6360,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.get(itemsPage.buyNowtab).eq(3).click() // url validation\n.url().should('contain', 'BIN=1');",
               "err": {},
-              "uuid": "6c6477ae-2b31-407f-8b2e-36fef9699baf",
-              "parentUUID": "0d010540-4181-4cbb-9ad4-3d83e5cb8af3",
+              "uuid": "dd3aad04-5061-4366-89b7-70af20275ba0",
+              "parentUUID": "f4a1c725-0509-45dc-a170-d90a3961dfeb",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6c6477ae-2b31-407f-8b2e-36fef9699baf"
+            "dd3aad04-5061-4366-89b7-70af20275ba0"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5917,
+          "duration": 6360,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

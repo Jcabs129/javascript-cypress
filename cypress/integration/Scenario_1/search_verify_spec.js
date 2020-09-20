@@ -11,11 +11,10 @@ describe('Search and verify results', () => {
       homePage.inputData()
       homePage.clickSearch()
   });
-  it('Should click on search and confirm the next page as expected', () => {
+  it('Should confirm navigation of the expected page', () => {
     cy
       .wait(1000)
       .url().should('contain', 'nkw=football')
-      // .get(homePage.abcSearchBtn).click()
   })
   it('Should Confirm the items card show;  price and show BuyItNow tag', () => {
     cy

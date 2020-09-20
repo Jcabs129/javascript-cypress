@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 1,
-    "start": "2020-09-20T17:24:40.532Z",
-    "end": "2020-09-20T17:25:00.401Z",
-    "duration": 19869,
+    "start": "2020-09-20T21:48:11.197Z",
+    "end": "2020-09-20T21:48:29.537Z",
+    "duration": 18340,
     "testsRegistered": 3,
     "passPercent": 66.66666666666666,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "824043ce-3449-4b37-943f-e899f3dacf0b",
+      "uuid": "4da6f693-5a0c-4625-b3ca-c872645f6ab4",
       "title": "",
       "fullFile": "cypress/integration/Scenario_1/search_verify_spec.js",
       "file": "cypress/integration/Scenario_1/search_verify_spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "780c0b90-b426-492f-9d16-d1d14ccc0988",
+          "uuid": "f44b3bf8-ec4d-40b8-931a-e401050c85bc",
           "title": "Search and verify results",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Should click on search and confirm the next page as expected",
               "fullTitle": "Search and verify results Should click on search and confirm the next page as expected",
               "timedOut": null,
-              "duration": 4823,
+              "duration": 4776,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.wait(1000).url().should('contain', 'nkw=football'); // .get(homePage.abcSearchBtn).click()",
               "err": {},
-              "uuid": "2cb1ff9c-f047-4f27-99d8-a18f8853442b",
-              "parentUUID": "780c0b90-b426-492f-9d16-d1d14ccc0988",
+              "uuid": "aa4847d1-38ff-4c5d-9211-5eab4bf4a340",
+              "parentUUID": "f44b3bf8-ec4d-40b8-931a-e401050c85bc",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Should Confirm the items card show;  price and show BuyItNow tag",
               "fullTitle": "Search and verify results Should Confirm the items card show;  price and show BuyItNow tag",
               "timedOut": null,
-              "duration": 4192,
+              "duration": 4188,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "cy.get(itemsPage.priceOfItem).should('exist').get(itemsPage.buyItNow).should('exist');",
               "err": {},
-              "uuid": "a886a1e9-0890-456a-997a-153faa2a11e7",
-              "parentUUID": "780c0b90-b426-492f-9d16-d1d14ccc0988",
+              "uuid": "8aa25e2a-d1ec-4e84-9442-ea300be9e591",
+              "parentUUID": "f44b3bf8-ec4d-40b8-931a-e401050c85bc",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "This Should fail to confirm that priceOfItem should exist",
               "fullTitle": "Search and verify results This Should fail to confirm that priceOfItem should exist",
               "timedOut": null,
-              "duration": 7566,
+              "duration": 7919,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -87,23 +87,23 @@
                 "estack": "AssertionError: Timed out retrying: Expected [ <span.s-item__price>, 62 more... ] not to exist in the DOM, but it was continuously found.\n    at Context.eval (https://www.ebay.co.uk/__cypress/tests?p=cypress/integration/Scenario_1/search_verify_spec.js:183:35)",
                 "diff": null
               },
-              "uuid": "9d2d61bf-c374-4d52-a6df-a705e7a5daff",
-              "parentUUID": "780c0b90-b426-492f-9d16-d1d14ccc0988",
+              "uuid": "08b0a133-a673-486d-a035-f163220ec261",
+              "parentUUID": "f44b3bf8-ec4d-40b8-931a-e401050c85bc",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "2cb1ff9c-f047-4f27-99d8-a18f8853442b",
-            "a886a1e9-0890-456a-997a-153faa2a11e7"
+            "aa4847d1-38ff-4c5d-9211-5eab4bf4a340",
+            "8aa25e2a-d1ec-4e84-9442-ea300be9e591"
           ],
           "failures": [
-            "9d2d61bf-c374-4d52-a6df-a705e7a5daff"
+            "08b0a133-a673-486d-a035-f163220ec261"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 16581,
+          "duration": 16883,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

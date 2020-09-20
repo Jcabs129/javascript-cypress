@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-09-20T17:25:04.081Z",
-    "end": "2020-09-20T17:25:10.756Z",
-    "duration": 6675,
+    "start": "2020-09-20T21:48:33.120Z",
+    "end": "2020-09-20T21:48:39.132Z",
+    "duration": 6012,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "7adca30e-8598-4511-949a-fb316ff313a9",
+      "uuid": "add4b42c-9303-4ad7-988d-05b1c5431600",
       "title": "",
       "fullFile": "cypress/integration/scenario_2/search_category_spec.js",
       "file": "cypress/integration/scenario_2/search_category_spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "05b1f5ce-dce3-45f8-a5a7-d9a007cc56d4",
+          "uuid": "037d7fb4-c629-44bd-a0a3-ff40e6b0662f",
           "title": "Should search for the item and select a category",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Land on the search item page and select a category",
               "fullTitle": "Should search for the item and select a category Land on the search item page and select a category",
               "timedOut": null,
-              "duration": 5310,
+              "duration": 4639,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.get(itemsPage.categoryItem).eq(5).click(); // add validation\ncy.url().should('contain', 'nkw=football');",
               "err": {},
-              "uuid": "91d91836-c4af-45ed-bc50-eb5154958046",
-              "parentUUID": "05b1f5ce-dce3-45f8-a5a7-d9a007cc56d4",
+              "uuid": "f84dcbea-6222-483f-9baf-4f868886ac30",
+              "parentUUID": "037d7fb4-c629-44bd-a0a3-ff40e6b0662f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "91d91836-c4af-45ed-bc50-eb5154958046"
+            "f84dcbea-6222-483f-9baf-4f868886ac30"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5310,
+          "duration": 4639,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

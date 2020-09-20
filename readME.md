@@ -1,5 +1,17 @@
 
-### Test results report usine mocha-awesome-reporter
+### solution
+
+how to filter lowest and highest price
+- https://docs.cypress.io/api/commands/children.html#No-Args
+- https://stackoverflow.com/questions/55046835/select-react-select-dropdown-list-option-using-cypress
+
+how to validate via url()
+https://docs.cypress.io/api/commands/url.html#Href-Shorthand
+
+
+## Test results report using mocha-awesome-reporter
+
+### info
 https://dev.to/bushraalam/using-mochawesome-reporter-with-cypress-54pf
 https://www.youtube.com/watch?v=ftie-ASpbzY&ab_channel=QACamp
 
