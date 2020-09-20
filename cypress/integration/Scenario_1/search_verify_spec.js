@@ -26,8 +26,8 @@ describe('Search and verify results', () => {
       .get(itemsPage.buyItNow).should('exist')
   })
   // validation
-  // it('This Should fail when priceOfItem=false', () => {
-  //   cy
-  //     .get(itemsPage.priceOfItem).should('not.exist')
-  // })
+  it('This Should fail when priceOfItem=false', () => {
+    cy
+      .get(itemsPage.priceOfItem).should('not.exist')
+  })
 })
