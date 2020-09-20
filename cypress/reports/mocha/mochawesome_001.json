@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-09-20T17:24:32.653Z",
+    "end": "2020-09-20T17:24:37.662Z",
+    "duration": 5009,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f966b830-46dc-47b4-9140-d4aaaa42adb4",
+      "title": "",
+      "fullFile": "cypress/integration/Scenario_1/low_price_filter_spec.js",
+      "file": "cypress/integration/Scenario_1/low_price_filter_spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "73c0c2bc-c730-4b8b-9756-a642f17eda6b",
+          "title": "Should display and sort Lowest price when clicked",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "",
+              "fullTitle": "Should display and sort Lowest price when clicked ",
+              "timedOut": null,
+              "duration": 3639,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get(itemsPage.bestMatchBtn).click().get('.fake-menu-button__item').children(); // .get('.fake-menu-button__item').eq(4).click()\n// Validation",
+              "err": {},
+              "uuid": "c6e61541-5cc3-4b53-892f-14b67f19d53a",
+              "parentUUID": "73c0c2bc-c730-4b8b-9756-a642f17eda6b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c6e61541-5cc3-4b53-892f-14b67f19d53a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3639,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

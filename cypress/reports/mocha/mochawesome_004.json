@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-09-20T17:25:13.459Z",
+    "end": "2020-09-20T17:25:20.385Z",
+    "duration": 6926,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "093af98a-bdfc-4450-ac94-92bf0c02e7bb",
+      "title": "",
+      "fullFile": "cypress/integration/scenario_3/navigate_resultPage_spec.js",
+      "file": "cypress/integration/scenario_3/navigate_resultPage_spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9f61c84d-a14b-4e1f-bd56-fb4624b14579",
+          "title": "Should be able to filter the results by Buy it now",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should confirm the page and naviagte through page",
+              "fullTitle": "Should be able to filter the results by Buy it now Should confirm the page and naviagte through page",
+              "timedOut": null,
+              "duration": 5669,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy // .get('.s-page no-touch skin-large srp--list-view no-touch skin-large gh-1199 gh-979 gh-939 gh-flex').scrollTo('bottom')\n.scrollTo('bottom').url().should('contain', 'nkw=football').get(itemsPage.pagination).eq(2).click().url().should('contain', 'pgn=3');",
+              "err": {},
+              "uuid": "c2965280-4de3-4766-9d53-ac0068f39e2c",
+              "parentUUID": "9f61c84d-a14b-4e1f-bd56-fb4624b14579",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c2965280-4de3-4766-9d53-ac0068f39e2c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5669,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

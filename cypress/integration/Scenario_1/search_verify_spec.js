@@ -1,7 +1,6 @@
 import ItemsPage from '../../pageOjects/itemsPage';
 import Homepage from '../../pageOjects/homePage';
 
-
 const itemsPage = new ItemsPage();
 const homePage = new Homepage();
 
@@ -11,22 +10,20 @@ describe('Search and verify results', () => {
       homePage.visitWeb()
       homePage.inputData()
       homePage.clickSearch()
-  })
+  });
   it('Should click on search and confirm the next page as expected', () => {
     cy
+      .wait(1000)
       .url().should('contain', 'nkw=football')
-      .get(homePage.searchBtn).click()
-      // validation
+      // .get(homePage.abcSearchBtn).click()
   })
   it('Should Confirm the items card show;  price and show BuyItNow tag', () => {
     cy
-      // priceOfItem
       .get(itemsPage.priceOfItem).should('exist')
-      // buyItNow
       .get(itemsPage.buyItNow).should('exist')
   })
   // validation
-  it('This Should fail when priceOfItem=false', () => {
+  it('This Should fail to confirm that priceOfItem should exist', () => {
     cy
       .get(itemsPage.priceOfItem).should('not.exist')
   })
