@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-09-20T21:48:41.818Z",
-    "end": "2020-09-20T21:48:48.560Z",
-    "duration": 6742,
+    "start": "2020-09-22T09:47:57.850Z",
+    "end": "2020-09-22T09:48:07.592Z",
+    "duration": 9742,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "b8b9043e-1b49-4d51-88e6-ddcb19274b41",
+      "uuid": "0c6d5867-1c15-476e-831e-e41defdc5f5c",
       "title": "",
       "fullFile": "cypress/integration/scenario_3/navigate_resultPage_spec.js",
       "file": "cypress/integration/scenario_3/navigate_resultPage_spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8c299578-4084-4e1b-95f4-f4154fff1f80",
+          "uuid": "8b4884ae-0230-437d-8ef4-78d3cd9cce9b",
           "title": "Should be able to filter the results by Buy it now",
           "fullFile": "",
           "file": "",
@@ -35,32 +35,32 @@
           "afterHooks": [],
           "tests": [
             {
-              "title": "Should confirm the page and naviagte through page",
-              "fullTitle": "Should be able to filter the results by Buy it now Should confirm the page and naviagte through page",
+              "title": "Should confirm the page and naviagte through pages",
+              "fullTitle": "Should be able to filter the results by Buy it now Should confirm the page and naviagte through pages",
               "timedOut": null,
-              "duration": 5414,
+              "duration": 8359,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "cy // .get('.s-page no-touch skin-large srp--list-view no-touch skin-large gh-1199 gh-979 gh-939 gh-flex').scrollTo('bottom')\n.scrollTo('bottom').url().should('contain', 'nkw=football').get(itemsPage.pagination).eq(2).click().url().should('contain', 'pgn=3');",
+              "code": "cy.scrollTo('bottom').url().should('contain', 'nkw=football') // naviagte to page 3 and validate\n.get(itemsPage.pagination).eq(2).click().url().should('contain', 'pgn=3') // naviagte to page 5 and validate\n.get(itemsPage.pagination).eq(4).click().url().should('contain', 'pgn=5');",
               "err": {},
-              "uuid": "f1c37d1e-bf9b-44b6-bb54-bdc09bfb86fe",
-              "parentUUID": "8c299578-4084-4e1b-95f4-f4154fff1f80",
+              "uuid": "4b569c68-c75e-42cf-b9a1-42dc617c3a6e",
+              "parentUUID": "8b4884ae-0230-437d-8ef4-78d3cd9cce9b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f1c37d1e-bf9b-44b6-bb54-bdc09bfb86fe"
+            "4b569c68-c75e-42cf-b9a1-42dc617c3a6e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5414,
+          "duration": 8359,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

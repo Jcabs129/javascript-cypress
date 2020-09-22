@@ -1,7 +1,6 @@
 import ItemsPage from '../../pageOjects/itemsPage';
 import Homepage from '../../pageOjects/homePage';
-
-
+ 
 const itemsPage = new ItemsPage();
 const homePage = new Homepage();
 

@@ -1,17 +1,6 @@
-
-### solution
-
-how to filter lowest and highest price
-- https://docs.cypress.io/api/commands/children.html#No-Args
-- https://stackoverflow.com/questions/55046835/select-react-select-dropdown-list-option-using-cypress
-
-how to validate via url()
-https://docs.cypress.io/api/commands/url.html#Href-Shorthand
-
-
 ## Test results report using mocha-awesome-reporter
 
-### info
+info<br/>
 https://dev.to/bushraalam/using-mochawesome-reporter-with-cypress-54pf
 https://www.youtube.com/watch?v=ftie-ASpbzY&ab_channel=QACamp
 
@@ -22,21 +11,37 @@ c. create .json files (one for each spec executed) in the 'mocha' folder
 
 posttest script would combine all the .json files present in 'cypress/reports/mocha' folder and place the combined file 'report.json' in 'cypress/reports/mochareports' and create a beautiful html report.
 
-`npm run test`
+Results report<br/>
+how to run your test report and locate the results within the project
+1. naviagte to root directory `/javascript-cypress`   
+2. `npm run test` 
+3. navigate to cypress/reports/mochareports/report.html
+4. open report.html - will show the list of report/result
+
 
 ### scripts
+1. naviagte to root directory `/javascript-cypress`
+2. `npm run cypress:open` (headless:false)
+3. `npx cypress run` (headless:true)
+<br/>
+<br/>
+1. naviagte to root directory `/javascript-cypress`
+2. `npm run test` (run testing report)
+3. naviagte to `cypress/reports/mochareports/report.html`
+4. open report.html 
 
-- `npm run cypress:open` (headless:false)
-- `npx cypress run` (headless:true)
+### POM structure
+https://medium.com/tech-tajawal/page-object-model-pom-design-pattern-f9588630800b
 
 
-- `npm run test` (run testing report)
-- naviagte to `cypress/reports/mochareports/report.html`
-- open report.html 
+### Solution
+how to filter lowest and highest price
+- https://docs.cypress.io/api/commands/children.html#No-Args
+- https://stackoverflow.com/questions/55046835/select-react-select-dropdown-list-option-using-cypress
 
-
-
- - https://docs.cypress.io/api/commands/within.html#Forms
+how to validate via url()
+- https://docs.cypress.io/api/commands/url.html#Href-Shorthand
+- https://docs.cypress.io/api/commands/within.html#Forms
 
 ### material
 https://medium.com/@NicholasBoll/cypress-io-using-async-and-await-4034e9bab207
