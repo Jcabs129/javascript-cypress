@@ -21,5 +21,3 @@
       .get(this.btnSearch).click() 
  }
 }
-
-

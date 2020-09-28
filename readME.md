@@ -1,3 +1,19 @@
+
+### Challenges i faced
+- `{ uncaught:exceptions }`, were failing my test only on firefix, all other browsers were passing my tests
+
+- sorting the high/low results, trying to make the parent()
+ selector available so that i can have access to the choldren selectors
+
+- finding a suitable framework for test reporting taht works seamlessly with cypress (mochaawesome_generator)
+
+### Things to improve on Cypress Automation Framework
+1. pageObject file, defined variables can be organised in alphabetical order
+2. currently strings are hard coded on the test files, all strings can be stored under one .env file (dotenv package manager) and called upon
+3.  
+
+
+
 ## Test results report using mocha-awesome-reporter
 
 info<br/>

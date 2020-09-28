@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2020-09-22T09:47:11.467Z",
-    "end": "2020-09-22T09:47:23.591Z",
-    "duration": 12124,
+    "start": "2020-09-24T10:01:49.236Z",
+    "end": "2020-09-24T10:02:03.294Z",
+    "duration": 14058,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d4d75074-cad4-4968-8643-96e97d1bd89b",
+      "uuid": "4d9335f1-f69b-4cf1-846b-90e651b6dfa4",
       "title": "",
       "fullFile": "cypress/integration/Scenario_1/low_and_high_price_filter_spec.js",
       "file": "cypress/integration/Scenario_1/low_and_high_price_filter_spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6f5090a3-3bf8-497e-82ed-31565044581b",
+          "uuid": "1b929685-1774-4d36-959b-c1b710af653f",
           "title": "Should display and sort Lowest and highest price when clicked",
           "fullFile": "",
           "file": "",
@@ -38,17 +38,17 @@
               "title": "Locate drop-down list best match , and click/filter LOWEST price",
               "fullTitle": "Should display and sort Lowest and highest price when clicked Locate drop-down list best match , and click/filter LOWEST price",
               "timedOut": null,
-              "duration": 6112,
+              "duration": 7436,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "cy.get(itemsPage.bestMatchBtn).click();\nitemsPage.filterLowPrice();",
+              "code": "cy.wait(1000).get(itemsPage.bestMatchBtn).click();\nitemsPage.filterLowPrice();",
               "err": {},
-              "uuid": "6745e025-f89d-4d89-a0f0-73eebba47b62",
-              "parentUUID": "6f5090a3-3bf8-497e-82ed-31565044581b",
+              "uuid": "5b7c8887-1655-47f8-816d-7d95bc00ef85",
+              "parentUUID": "1b929685-1774-4d36-959b-c1b710af653f",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "Locate drop-down list best match , and click/filter HIGHEST price",
               "fullTitle": "Should display and sort Lowest and highest price when clicked Locate drop-down list best match , and click/filter HIGHEST price",
               "timedOut": null,
-              "duration": 4661,
+              "duration": 5171,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "cy.get(itemsPage.bestMatchBtn).click();\nitemsPage.filterHighPrice();",
               "err": {},
-              "uuid": "633fa46e-7126-4fdf-a010-c16dc44b98b1",
-              "parentUUID": "6f5090a3-3bf8-497e-82ed-31565044581b",
+              "uuid": "4faed17f-52ad-4ad9-9c18-7d6f14a1ac45",
+              "parentUUID": "1b929685-1774-4d36-959b-c1b710af653f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6745e025-f89d-4d89-a0f0-73eebba47b62",
-            "633fa46e-7126-4fdf-a010-c16dc44b98b1"
+            "5b7c8887-1655-47f8-816d-7d95bc00ef85",
+            "4faed17f-52ad-4ad9-9c18-7d6f14a1ac45"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 10773,
+          "duration": 12607,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -5,9 +5,9 @@
     "passes": 7,
     "pending": 0,
     "failures": 1,
-    "start": "2020-09-22T09:48:11.295Z",
-    "end": "2020-09-22T09:48:11.295Z",
-    "duration": 48123,
+    "start": "2020-09-24T10:02:50.627Z",
+    "end": "2020-09-24T10:02:50.627Z",
+    "duration": 48713,
     "testsRegistered": 8,
     "passPercent": 87.5,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "cf82c61b-0294-4e27-805a-c857312969eb",
+      "uuid": "2784e3ea-ecb5-467c-a542-5b273489f443",
       "title": "",
       "fullFile": "cypress/integration/Scenario_1/buyItNow_filter_spec.js",
       "file": "cypress/integration/Scenario_1/buyItNow_filter_spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "2455c06c-3b69-486b-bc7e-bed22ba4851c",
+          "uuid": "82c3bb49-fb63-424c-982e-c6bea2a1b3d1",
           "title": "Should be able to filter the results by Buy it now",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should be able to navigate to buy it now view and confirm",
               "fullTitle": "Should be able to filter the results by Buy it now should be able to navigate to buy it now view and confirm",
               "timedOut": null,
-              "duration": 7167,
+              "duration": 6176,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.get(itemsPage.buyNowtab).eq(3).click() // url validation\n.url().should('contain', 'BIN=1');",
               "err": {},
-              "uuid": "68a5b294-1c2d-4978-a18d-c35c5d8d45d9",
-              "parentUUID": "2455c06c-3b69-486b-bc7e-bed22ba4851c",
+              "uuid": "ad27100f-fbce-4943-ba81-3743051e283f",
+              "parentUUID": "82c3bb49-fb63-424c-982e-c6bea2a1b3d1",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "68a5b294-1c2d-4978-a18d-c35c5d8d45d9"
+            "ad27100f-fbce-4943-ba81-3743051e283f"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7167,
+          "duration": 6176,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -76,7 +76,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "d4d75074-cad4-4968-8643-96e97d1bd89b",
+      "uuid": "4d9335f1-f69b-4cf1-846b-90e651b6dfa4",
       "title": "",
       "fullFile": "cypress/integration/Scenario_1/low_and_high_price_filter_spec.js",
       "file": "cypress/integration/Scenario_1/low_and_high_price_filter_spec.js",
@@ -85,7 +85,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6f5090a3-3bf8-497e-82ed-31565044581b",
+          "uuid": "1b929685-1774-4d36-959b-c1b710af653f",
           "title": "Should display and sort Lowest and highest price when clicked",
           "fullFile": "",
           "file": "",
@@ -96,17 +96,17 @@
               "title": "Locate drop-down list best match , and click/filter LOWEST price",
               "fullTitle": "Should display and sort Lowest and highest price when clicked Locate drop-down list best match , and click/filter LOWEST price",
               "timedOut": null,
-              "duration": 6112,
+              "duration": 7436,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "cy.get(itemsPage.bestMatchBtn).click();\nitemsPage.filterLowPrice();",
+              "code": "cy.wait(1000).get(itemsPage.bestMatchBtn).click();\nitemsPage.filterLowPrice();",
               "err": {},
-              "uuid": "6745e025-f89d-4d89-a0f0-73eebba47b62",
-              "parentUUID": "6f5090a3-3bf8-497e-82ed-31565044581b",
+              "uuid": "5b7c8887-1655-47f8-816d-7d95bc00ef85",
+              "parentUUID": "1b929685-1774-4d36-959b-c1b710af653f",
               "isHook": false,
               "skipped": false
             },
@@ -114,7 +114,7 @@
               "title": "Locate drop-down list best match , and click/filter HIGHEST price",
               "fullTitle": "Should display and sort Lowest and highest price when clicked Locate drop-down list best match , and click/filter HIGHEST price",
               "timedOut": null,
-              "duration": 4661,
+              "duration": 5171,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -123,21 +123,21 @@
               "context": null,
               "code": "cy.get(itemsPage.bestMatchBtn).click();\nitemsPage.filterHighPrice();",
               "err": {},
-              "uuid": "633fa46e-7126-4fdf-a010-c16dc44b98b1",
-              "parentUUID": "6f5090a3-3bf8-497e-82ed-31565044581b",
+              "uuid": "4faed17f-52ad-4ad9-9c18-7d6f14a1ac45",
+              "parentUUID": "1b929685-1774-4d36-959b-c1b710af653f",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6745e025-f89d-4d89-a0f0-73eebba47b62",
-            "633fa46e-7126-4fdf-a010-c16dc44b98b1"
+            "5b7c8887-1655-47f8-816d-7d95bc00ef85",
+            "4faed17f-52ad-4ad9-9c18-7d6f14a1ac45"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 10773,
+          "duration": 12607,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -153,7 +153,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "5dfb4eac-dbcb-41db-a024-e9e813055fb0",
+      "uuid": "023acbd4-fdfb-4938-b9c4-d688e7f0be83",
       "title": "",
       "fullFile": "cypress/integration/Scenario_1/search_verify_spec.js",
       "file": "cypress/integration/Scenario_1/search_verify_spec.js",
@@ -162,7 +162,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e09460db-494d-438e-b023-b2db1f2b13d7",
+          "uuid": "683e8de8-5319-4325-abed-dda843acc22e",
           "title": "Search and verify results",
           "fullFile": "",
           "file": "",
@@ -173,7 +173,7 @@
               "title": "Should confirm navigation of the expected page",
               "fullTitle": "Search and verify results Should confirm navigation of the expected page",
               "timedOut": null,
-              "duration": 4668,
+              "duration": 4093,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -182,8 +182,8 @@
               "context": null,
               "code": "cy.wait(1000).url().should('contain', 'nkw=football');",
               "err": {},
-              "uuid": "481ac4c1-b0c4-4e4a-a5c5-86d5571f5c35",
-              "parentUUID": "e09460db-494d-438e-b023-b2db1f2b13d7",
+              "uuid": "2d91b705-41da-4fd8-a643-47425cdfaf1c",
+              "parentUUID": "683e8de8-5319-4325-abed-dda843acc22e",
               "isHook": false,
               "skipped": false
             },
@@ -191,7 +191,7 @@
               "title": "Should Confirm the items card show;  price and show BuyItNow tag",
               "fullTitle": "Search and verify results Should Confirm the items card show;  price and show BuyItNow tag",
               "timedOut": null,
-              "duration": 4325,
+              "duration": 4816,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -200,8 +200,8 @@
               "context": null,
               "code": "cy.get(itemsPage.priceOfItem).should('exist').get(itemsPage.buyItNow).should('exist');",
               "err": {},
-              "uuid": "52cab547-8dc1-4ea7-b26c-31dc9b2a433c",
-              "parentUUID": "e09460db-494d-438e-b023-b2db1f2b13d7",
+              "uuid": "ca31a0b9-4e0d-4063-a667-35523cdfea8b",
+              "parentUUID": "683e8de8-5319-4325-abed-dda843acc22e",
               "isHook": false,
               "skipped": false
             },
@@ -209,7 +209,7 @@
               "title": "This Should fail to confirm that priceOfItem should exist",
               "fullTitle": "Search and verify results This Should fail to confirm that priceOfItem should exist",
               "timedOut": null,
-              "duration": 8056,
+              "duration": 7940,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -222,23 +222,23 @@
                 "estack": "AssertionError: Timed out retrying: Expected [ <span.s-item__price>, 62 more... ] not to exist in the DOM, but it was continuously found.\n    at Context.eval (https://www.ebay.co.uk/__cypress/tests?p=cypress/integration/Scenario_1/search_verify_spec.js:183:35)",
                 "diff": null
               },
-              "uuid": "670b54c3-6c5a-48b0-88a9-b7089049c1e0",
-              "parentUUID": "e09460db-494d-438e-b023-b2db1f2b13d7",
+              "uuid": "ab0d8bbd-dc71-41bf-8e9c-e34bf23956b0",
+              "parentUUID": "683e8de8-5319-4325-abed-dda843acc22e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "481ac4c1-b0c4-4e4a-a5c5-86d5571f5c35",
-            "52cab547-8dc1-4ea7-b26c-31dc9b2a433c"
+            "2d91b705-41da-4fd8-a643-47425cdfaf1c",
+            "ca31a0b9-4e0d-4063-a667-35523cdfea8b"
           ],
           "failures": [
-            "670b54c3-6c5a-48b0-88a9-b7089049c1e0"
+            "ab0d8bbd-dc71-41bf-8e9c-e34bf23956b0"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 17049,
+          "duration": 16849,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -254,7 +254,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "41aad504-6a53-433d-9297-3b716cd8ba49",
+      "uuid": "28ed3db0-fbe4-4071-9fbd-9918027c6920",
       "title": "",
       "fullFile": "cypress/integration/scenario_2/search_category_spec.js",
       "file": "cypress/integration/scenario_2/search_category_spec.js",
@@ -263,7 +263,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3c300192-437b-4bd0-badb-3b884233de75",
+          "uuid": "6d887ae4-4068-4e52-a4b7-3b4456a785c7",
           "title": "Should search for the item and select a category",
           "fullFile": "",
           "file": "",
@@ -274,7 +274,7 @@
               "title": "Land on the search item page and select a category",
               "fullTitle": "Should search for the item and select a category Land on the search item page and select a category",
               "timedOut": null,
-              "duration": 4775,
+              "duration": 4606,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -283,20 +283,20 @@
               "context": null,
               "code": "cy.get(itemsPage.categoryItem).eq(5).click(); // add validation\ncy.url().should('contain', 'nkw=football');",
               "err": {},
-              "uuid": "f3845f4a-55ff-462b-9364-4f52fdf49a81",
-              "parentUUID": "3c300192-437b-4bd0-badb-3b884233de75",
+              "uuid": "f9c1cc0e-70c2-45fe-a117-10625a576ef2",
+              "parentUUID": "6d887ae4-4068-4e52-a4b7-3b4456a785c7",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f3845f4a-55ff-462b-9364-4f52fdf49a81"
+            "f9c1cc0e-70c2-45fe-a117-10625a576ef2"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4775,
+          "duration": 4606,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -312,7 +312,7 @@
       "_timeout": 2000
     },
     {
-      "uuid": "0c6d5867-1c15-476e-831e-e41defdc5f5c",
+      "uuid": "53aa4984-be33-42cb-bbe3-f64044de3b47",
       "title": "",
       "fullFile": "cypress/integration/scenario_3/navigate_resultPage_spec.js",
       "file": "cypress/integration/scenario_3/navigate_resultPage_spec.js",
@@ -321,7 +321,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8b4884ae-0230-437d-8ef4-78d3cd9cce9b",
+          "uuid": "4077249f-e4d4-49df-87c4-a7cba4ab5735",
           "title": "Should be able to filter the results by Buy it now",
           "fullFile": "",
           "file": "",
@@ -332,7 +332,7 @@
               "title": "Should confirm the page and naviagte through pages",
               "fullTitle": "Should be able to filter the results by Buy it now Should confirm the page and naviagte through pages",
               "timedOut": null,
-              "duration": 8359,
+              "duration": 8475,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -341,20 +341,20 @@
               "context": null,
               "code": "cy.scrollTo('bottom').url().should('contain', 'nkw=football') // naviagte to page 3 and validate\n.get(itemsPage.pagination).eq(2).click().url().should('contain', 'pgn=3') // naviagte to page 5 and validate\n.get(itemsPage.pagination).eq(4).click().url().should('contain', 'pgn=5');",
               "err": {},
-              "uuid": "4b569c68-c75e-42cf-b9a1-42dc617c3a6e",
-              "parentUUID": "8b4884ae-0230-437d-8ef4-78d3cd9cce9b",
+              "uuid": "5bf1b9d4-33ff-4ba5-90f2-1a8b44b40a0c",
+              "parentUUID": "4077249f-e4d4-49df-87c4-a7cba4ab5735",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4b569c68-c75e-42cf-b9a1-42dc617c3a6e"
+            "5bf1b9d4-33ff-4ba5-90f2-1a8b44b40a0c"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8359,
+          "duration": 8475,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

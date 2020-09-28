@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-09-22T09:47:57.850Z",
-    "end": "2020-09-22T09:48:07.592Z",
-    "duration": 9742,
+    "start": "2020-09-24T10:02:37.116Z",
+    "end": "2020-09-24T10:02:46.965Z",
+    "duration": 9849,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "0c6d5867-1c15-476e-831e-e41defdc5f5c",
+      "uuid": "53aa4984-be33-42cb-bbe3-f64044de3b47",
       "title": "",
       "fullFile": "cypress/integration/scenario_3/navigate_resultPage_spec.js",
       "file": "cypress/integration/scenario_3/navigate_resultPage_spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8b4884ae-0230-437d-8ef4-78d3cd9cce9b",
+          "uuid": "4077249f-e4d4-49df-87c4-a7cba4ab5735",
           "title": "Should be able to filter the results by Buy it now",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Should confirm the page and naviagte through pages",
               "fullTitle": "Should be able to filter the results by Buy it now Should confirm the page and naviagte through pages",
               "timedOut": null,
-              "duration": 8359,
+              "duration": 8475,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.scrollTo('bottom').url().should('contain', 'nkw=football') // naviagte to page 3 and validate\n.get(itemsPage.pagination).eq(2).click().url().should('contain', 'pgn=3') // naviagte to page 5 and validate\n.get(itemsPage.pagination).eq(4).click().url().should('contain', 'pgn=5');",
               "err": {},
-              "uuid": "4b569c68-c75e-42cf-b9a1-42dc617c3a6e",
-              "parentUUID": "8b4884ae-0230-437d-8ef4-78d3cd9cce9b",
+              "uuid": "5bf1b9d4-33ff-4ba5-90f2-1a8b44b40a0c",
+              "parentUUID": "4077249f-e4d4-49df-87c4-a7cba4ab5735",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4b569c68-c75e-42cf-b9a1-42dc617c3a6e"
+            "5bf1b9d4-33ff-4ba5-90f2-1a8b44b40a0c"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8359,
+          "duration": 8475,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

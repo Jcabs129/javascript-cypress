@@ -13,6 +13,7 @@ describe('Should display and sort Lowest and highest price when clicked', () => 
   })
   it('Locate drop-down list best match , and click/filter LOWEST price', () => {
    cy
+      .wait(1000)
       .get(itemsPage.bestMatchBtn).click()
       itemsPage.filterLowPrice()
   })

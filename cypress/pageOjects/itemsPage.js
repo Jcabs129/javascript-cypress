@@ -13,13 +13,11 @@ export default class ItemPage {
 
   filterLowPrice() {
     cy
-      .get(this.bestMatchBtn).click()
       .get(this.lowestPrice).children()
       .eq(4).click({ force: true })
   }
   filterHighPrice() {
     cy
-      .get(this.bestMatchBtn).click()
       .get(this.lowestPrice).children()
       .eq(3).click({ force: true })
   }
