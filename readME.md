@@ -35,7 +35,7 @@ how to run your test report and locate the results within the project
 4. open report.html - will show the list of report/result
 
 
-### scripts
+### cypress script
 1. naviagte to root directory `/javascript-cypress`
 2. `npm run cypress:open` (headless:false)
 3. `npx cypress run` (headless:true)
