@@ -1,7 +1,7 @@
 {
   "name": "coding-challenge-1",
   "version": "1.0.0",
-  "description": "automation coding challenge in js",
+  "description": "Automating ebay website using cypress.",
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
