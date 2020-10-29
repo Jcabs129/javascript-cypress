@@ -9,6 +9,8 @@ export default class ItemPage {
     this.pagination = '.pagination__item'
     this.buyNowtab = '.srp-format-tabs-h2'
     this.menuBtnItem = '.fake-menu-button__item'
+    this.highestPrice = '[id="s0-14-11-5-1[0]-37-0-content-menu"]'
+    this.itemTitleList = '.s-item__title'
   }
 
   filterLowPrice() {
@@ -18,7 +20,7 @@ export default class ItemPage {
   }
   filterHighPrice() {
     cy
-      .get(this.lowestPrice).children()
+      .get(this.highestPrice).children()
       .eq(3).click({ force: true })
   }
 
